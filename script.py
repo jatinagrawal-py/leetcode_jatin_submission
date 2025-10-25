@@ -4,7 +4,7 @@ import time
 import json
 
 # ================= USER CONFIG =================
-LEETCODE_SESSION = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfYXV0aF91c2VyX2lkIjoiMTA2MDk3MTAiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhbGxhdXRoLmFjY291bnQuYXV0aF9iYWNrZW5kcy5BdXRoZW50aWNhdGlvbkJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJlYTY0ZTc1ZDQ5ZGFmNDY5MzlkMGY4MzBlOTMxNGRmMTA5ODZkNjE1MjVkNWJjNWJiNDVmNjQxZTc3OGZlMTMyIiwic2Vzc2lvbl91dWlkIjoiMDBlNWM1MTciLCJpZCI6MTA2MDk3MTAsImVtYWlsIjoiamF0aW5hZ3Jhd2FsMDk4NzY1NDMyMUBnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImphdGluLWFncmF3YWwiLCJ1c2VyX3NsdWciOiJqYXRpbi1hZ3Jhd2FsIiwiYXZhdGFyIjoiaHR0cHM6Ly9hc3NldHMubGVldGNvZGUuY29tL3VzZXJzL2phdGluLWFncmF3YWwvYXZhdGFyXzE3NDI4NDg2MzUucG5nIiwicmVmcmVzaGVkX2F0IjoxNzYxMzgwNDM2LCJpcCI6IjI0MDk6NDBkNDoxMGJlOjM3OGE6NDM4OmI4M2M6ZTBiNDo2YThiIiwiaWRlbnRpdHkiOiIyMjA0ZWU2M2JlZjJmMzUxNDcwYTY2ZmZlMWJiMDIwZSIsImRldmljZV93aXRoX2lwIjpbIjk4NzJkMDBhYzVlNTA4ZmEwMmZhMDkwMjI4NjBhNTgyIiwiMjQwOTo0MGQ0OjEwYmU6Mzc4YTo0Mzg6YjgzYzplMGI0OjZhOGIiXSwiX3Nlc3Npb25fZXhwaXJ5IjoxMjA5NjAwfQ.WvjU4XZp7ERMhyySKAK_DLjA3pe389_do01v5jYHYU0"  # Replace with your cookie
+LEETCODE_SESSION = "hello there"  # Replace with your cookie
 SAVE_DIR = "leetcode_submissions"  # Folder to save code files
 LANGUAGE = "cpp"  # Change to cpp, python3, java, etc.
 REQUEST_DELAY = 1.0  # Increased delay between requests (1 second)
@@ -232,4 +232,5 @@ def main():
         print("🗑️  Progress file cleaned up")
 
 if __name__ == "__main__":
+
     main()
